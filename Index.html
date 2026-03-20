@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Portfólio profissional - Desenvolvedor Full Stack">
+  <title>Seu Nome | Portfólio</title>
+
+  <!-- Bootstrap CDN -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <!-- Bootstrap Icons -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css" rel="stylesheet">
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <!-- Custom CSS -->
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- ========== NAVBAR ========== -->
+  <nav class="navbar navbar-expand-md fixed-top nav-blur">
+    <div class="container">
+      <a class="navbar-brand fw-semibold" href="#hero">Portfólio</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navMenu">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navMenu">
+        <ul class="navbar-nav ms-auto gap-1">
+          <li class="nav-item"><a class="nav-link" href="#sobre">Sobre</a></li>
+          <li class="nav-item"><a class="nav-link" href="#habilidades">Habilidades</a></li>
+          <li class="nav-item"><a class="nav-link" href="#projetos">Projetos</a></li>
+          <li class="nav-item"><a class="nav-link" href="#formacao">Formação</a></li>
+          <li class="nav-item"><a class="nav-link" href="#contato">Contato</a></li>
+        </ul>
+        <a href="#contato" class="btn btn-primary btn-sm rounded-pill ms-md-3 mt-2 mt-md-0">Contato</a>
+      </div>
+    </div>
+  </nav>
+
+  <!-- ========== HERO ========== -->
+  <section id="hero" class="min-vh-100 d-flex align-items-center justify-content-center text-center position-relative overflow-hidden">
+    <div class="hero-glow"></div>
+    <div class="container position-relative z-1">
+      <!-- Foto de perfil -->
+      <div class="fade-up mb-4">
+        <div class="profile-img mx-auto">
+          <img src="img.jpg" alt="Foto de perfil">
+        </div>
+      </div>
+      <p class="fade-up text-primary-custom small fw-medium tracking-wide text-uppercase mb-3" style="animation-delay:.1s">Bem-vindo ao meu portfólio</p>
+      <h1 class="fade-up display-3 fw-bold text-gradient mb-3" style="animation-delay:.25s">Seu Nome</h1>
+      <p class="fade-up fs-4 text-secondary-custom fw-light mb-4" style="animation-delay:.4s">Desenvolvedor Full Stack</p>
+      <div class="fade-up d-flex justify-content-center gap-3" style="animation-delay:.55s">
+        <a href="https://github.com/" target="_blank" class="glass-icon" aria-label="GitHub"><i class="bi bi-github"></i></a>
+        <a href="https://linkedin.com/" target="_blank" class="glass-icon" aria-label="LinkedIn"><i class="bi bi-linkedin"></i></a>
+      </div>
+      <a href="#sobre" class="fade-up scroll-down" style="animation-delay:1.2s"><i class="bi bi-chevron-down"></i></a>
+    </div>
+  </section>
+
+  <!-- ========== SOBRE ========== -->
+  <section id="sobre" class="section-padding">
+    <div class="container" style="max-width:800px">
+      <div class="text-center mb-5">
+        <p class="text-primary-custom small fw-medium tracking-wide text-uppercase mb-2 reveal">Sobre</p>
+        <h2 class="display-6 fw-bold text-gradient reveal">Quem sou eu</h2>
+      </div>
+      <div class="surface-card rounded-4 p-4 p-md-5 reveal">
+        <p class="fs-5 text-secondary-custom fw-light lh-lg mb-0">
+          Sou um desenvolvedor apaixonado por criar soluções digitais elegantes e funcionais.
+          Com experiência em desenvolvimento web, busco sempre entregar projetos de alta qualidade
+          com código limpo e interfaces intuitivas. Acredito que a tecnologia pode transformar
+          ideias em realidade e estou sempre em busca de novos desafios.
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== HABILIDADES ========== -->
+  <section id="habilidades" class="section-padding">
+    <div class="container" style="max-width:800px">
+      <div class="text-center mb-5">
+        <p class="text-primary-custom small fw-medium tracking-wide text-uppercase mb-2 reveal">Skills</p>
+        <h2 class="display-6 fw-bold text-gradient reveal">Habilidades</h2>
+      </div>
+      <div class="row g-3">
+        <!-- Skill items -->
+        <div class="col-md-6 reveal"><div class="surface-card rounded-3 p-4">
+          <div class="d-flex justify-content-between mb-2"><span class="small fw-medium">HTML5</span><span class="small text-tertiary">90%</span></div>
+          <div class="progress-track"><div class="progress-fill" data-width="90"></div></div>
+        </div></div>
+        <div class="col-md-6 reveal"><div class="surface-card rounded-3 p-4">
+          <div class="d-flex justify-content-between mb-2"><span class="small fw-medium">CSS3</span><span class="small text-tertiary">85%</span></div>
+          <div class="progress-track"><div class="progress-fill" data-width="85"></div></div>
+        </div></div>
+        <div class="col-md-6 reveal"><div class="surface-card rounded-3 p-4">
+          <div class="d-flex justify-content-between mb-2"><span class="small fw-medium">JavaScript</span><span class="small text-tertiary">88%</span></div>
+          <div class="progress-track"><div class="progress-fill" data-width="88"></div></div>
+        </div></div>
+        <div class="col-md-6 reveal"><div class="surface-card rounded-3 p-4">
+          <div class="d-flex justify-content-between mb-2"><span class="small fw-medium">TypeScript</span><span class="small text-tertiary">80%</span></div>
+          <div class="progress-track"><div class="progress-fill" data-width="80"></div></div>
+        </div></div>
+        <div class="col-md-6 reveal"><div class="surface-card rounded-3 p-4">
+          <div class="d-flex justify-content-between mb-2"><span class="small fw-medium">React</span><span class="small text-tertiary">85%</span></div>
+          <div class="progress-track"><div class="progress-fill" data-width="85"></div></div>
+        </div></div>
+        <div class="col-md-6 reveal"><div class="surface-card rounded-3 p-4">
+          <div class="d-flex justify-content-between mb-2"><span class="small fw-medium">Node.js</span><span class="small text-tertiary">75%</span></div>
+          <div class="progress-track"><div class="progress-fill" data-width="75"></div></div>
+        </div></div>
+        <div class="col-md-6 reveal"><div class="surface-card rounded-3 p-4">
+          <div class="d-flex justify-content-between mb-2"><span class="small fw-medium">Python</span><span class="small text-tertiary">70%</span></div>
+          <div class="progress-track"><div class="progress-fill" data-width="70"></div></div>
+        </div></div>
+        <div class="col-md-6 reveal"><div class="surface-card rounded-3 p-4">
+          <div class="d-flex justify-content-between mb-2"><span class="small fw-medium">Git</span><span class="small text-tertiary">82%</span></div>
+          <div class="progress-track"><div class="progress-fill" data-width="82"></div></div>
+        </div></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== PROJETOS ========== -->
+  <section id="projetos" class="section-padding">
+    <div class="container" style="max-width:960px">
+      <div class="text-center mb-5">
+        <p class="text-primary-custom small fw-medium tracking-wide text-uppercase mb-2 reveal">Trabalhos</p>
+        <h2 class="display-6 fw-bold text-gradient reveal">Projetos</h2>
+      </div>
+      <div class="row g-4">
+        <div class="col-md-6 reveal">
+          <a href="#" class="surface-card rounded-4 p-4 p-md-5 d-block text-decoration-none hover-lift">
+            <h3 class="fs-5 fw-semibold mb-2 project-title">E-commerce App</h3>
+            <p class="small text-secondary-custom mb-3">Plataforma de e-commerce completa com carrinho, pagamentos e dashboard admin.</p>
+            <div class="d-flex flex-wrap gap-2">
+              <span class="badge-tag">React</span><span class="badge-tag">Node.js</span><span class="badge-tag">MongoDB</span>
+            </div>
+          </a>
+        </div>
+        <div class="col-md-6 reveal">
+          <a href="#" class="surface-card rounded-4 p-4 p-md-5 d-block text-decoration-none hover-lift">
+            <h3 class="fs-5 fw-semibold mb-2 project-title">Dashboard Analytics</h3>
+            <p class="small text-secondary-custom mb-3">Painel de análise de dados em tempo real com gráficos interativos.</p>
+            <div class="d-flex flex-wrap gap-2">
+              <span class="badge-tag">TypeScript</span><span class="badge-tag">D3.js</span><span class="badge-tag">API REST</span>
+            </div>
+          </a>
+        </div>
+        <div class="col-md-6 reveal">
+          <a href="#" class="surface-card rounded-4 p-4 p-md-5 d-block text-decoration-none hover-lift">
+            <h3 class="fs-5 fw-semibold mb-2 project-title">App de Tarefas</h3>
+            <p class="small text-secondary-custom mb-3">Aplicação de gerenciamento de tarefas com drag and drop e notificações.</p>
+            <div class="d-flex flex-wrap gap-2">
+              <span class="badge-tag">React</span><span class="badge-tag">Firebase</span><span class="badge-tag">Tailwind</span>
+            </div>
+          </a>
+        </div>
+        <div class="col-md-6 reveal">
+          <a href="#" class="surface-card rounded-4 p-4 p-md-5 d-block text-decoration-none hover-lift">
+            <h3 class="fs-5 fw-semibold mb-2 project-title">Landing Page</h3>
+            <p class="small text-secondary-custom mb-3">Landing page de alta conversão com animações suaves e design responsivo.</p>
+            <div class="d-flex flex-wrap gap-2">
+              <span class="badge-tag">HTML</span><span class="badge-tag">CSS</span><span class="badge-tag">JavaScript</span>
+            </div>
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== FORMAÇÃO ========== -->
+  <section id="formacao" class="section-padding">
+    <div class="container" style="max-width:800px">
+      <div class="text-center mb-5">
+        <p class="text-primary-custom small fw-medium tracking-wide text-uppercase mb-2 reveal">Educação</p>
+        <h2 class="display-6 fw-bold text-gradient reveal">Formação</h2>
+      </div>
+      <div class="d-flex flex-column gap-3">
+        <div class="surface-card rounded-3 p-4 d-flex flex-column flex-md-row align-items-md-center justify-content-between reveal">
+          <div><h3 class="fs-6 fw-semibold mb-1">Ciência da Computação</h3><p class="small text-secondary-custom mb-0">Universidade Federal</p></div>
+          <span class="small text-tertiary fw-medium mt-2 mt-md-0">2020 – 2024</span>
+        </div>
+        <div class="surface-card rounded-3 p-4 d-flex flex-column flex-md-row align-items-md-center justify-content-between reveal">
+          <div><h3 class="fs-6 fw-semibold mb-1">Full Stack Web Development</h3><p class="small text-secondary-custom mb-0">Rocketseat</p></div>
+          <span class="small text-tertiary fw-medium mt-2 mt-md-0">2023</span>
+        </div>
+        <div class="surface-card rounded-3 p-4 d-flex flex-column flex-md-row align-items-md-center justify-content-between reveal">
+          <div><h3 class="fs-6 fw-semibold mb-1">AWS Cloud Practitioner</h3><p class="small text-secondary-custom mb-0">Amazon Web Services</p></div>
+          <span class="small text-tertiary fw-medium mt-2 mt-md-0">2023</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== CONTATO ========== -->
+  <section id="contato" class="section-padding">
+    <div class="container text-center" style="max-width:700px">
+      <p class="text-primary-custom small fw-medium tracking-wide text-uppercase mb-2 reveal">Contato</p>
+      <h2 class="display-6 fw-bold text-gradient mb-3 reveal">Vamos conversar</h2>
+      <p class="text-secondary-custom fs-5 fw-light mb-4 reveal">Estou disponível para novos projetos e oportunidades. Entre em contato!</p>
+      <div class="d-flex flex-column flex-sm-row justify-content-center gap-3 reveal">
+        <a href="mailto:seuemail@email.com" class="btn btn-gradient rounded-pill px-4 py-2">Enviar Email</a>
+        <a href="https://linkedin.com/" target="_blank" class="btn btn-glass rounded-pill px-4 py-2">LinkedIn</a>
+        <a href="https://github.com/" target="_blank" class="btn btn-glass rounded-pill px-4 py-2">GitHub</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== FOOTER ========== -->
+  <footer class="border-top border-dark py-4">
+    <div class="container d-flex flex-column flex-md-row align-items-center justify-content-between gap-3">
+      <p class="small text-tertiary mb-0">&copy; 2025 Seu Nome. Todos os direitos reservados.</p>
+      <div class="d-flex gap-3">
+        <a href="https://github.com/" target="_blank" class="text-tertiary footer-icon"><i class="bi bi-github"></i></a>
+        <a href="https://linkedin.com/" target="_blank" class="text-tertiary footer-icon"><i class="bi bi-linkedin"></i></a>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Bootstrap JS -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+  <!-- Custom JS -->
+  <script src="script.js"></script>
+</body>
+</html>
